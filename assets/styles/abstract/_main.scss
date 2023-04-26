@@ -1,0 +1,30 @@
+main{
+    background-color: $cor-fundo-principal;
+
+    .tela1{
+        height: 90vh;
+        text-align: center;
+
+        h1{
+            padding-top: 6vh;
+            font-family: $fonte-zen;
+            font-size: 10vh;
+
+            color: $cor-fonte-destaque;
+        }
+
+        h2{
+            font-family: $fonte-red-hat;
+            font-size: 5vh;
+            padding-top: 2vh;
+
+            color: $cor-fonte-princiapal;
+
+        }
+
+        img{
+            max-height: 400px;
+        }
+    }
+
+}

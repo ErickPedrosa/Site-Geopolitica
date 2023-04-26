@@ -1,0 +1,30 @@
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: $cor-fundo-secundario;
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a{
+            font-family: $fonte-red-hat;
+            text-decoration: none;
+            color: $cor-fonte-princiapal;
+            margin: clamp(10px, 4vw, 50px) ;
+
+            &:hover{
+                color: $cor-fonte-destaque;
+                text-decoration: underline;
+            }
+
+
+        }
+    }
+
+    img{
+        max-height: 96px;
+    }
+}

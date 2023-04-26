@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F8F5F5;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header nav a {
+  font-family: "Red Hat Text", sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: clamp(10px, 4vw, 50px);
+}
+header nav a:hover {
+  color: #A0524E;
+  text-decoration: underline;
+}
+header img {
+  max-height: 96px;
+}
+
+main {
+  background-color: #FFF2E9;
+}
+main h1 {
+  text-align: center;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  font-family: "Zen Antique Soft", serif;
+  font-size: 10vh;
+  color: #A0524E;
+}
+main .contato {
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main .contato .integrante {
+  background-color: #F8F5F5;
+  padding: 2%;
+  border-radius: 30px;
+}
+main .contato .integrante img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+main .contato .integrante .nome {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+}
+main .contato .integrante .rede-social {
+  font-family: "Red Hat Text", sans-serif;
+  display: flex;
+}
+main .contato .integrante .rede-social img {
+  max-height: 1em;
+  max-width: 1em;
+  padding-right: 5px;
+}
+main .velas {
+  display: flex;
+  justify-content: space-between;
+}
+main .velas img {
+  height: 150px;
+  width: 150px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}/*# sourceMappingURL=contato.css.map */

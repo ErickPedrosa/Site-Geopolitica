@@ -1,0 +1,70 @@
+
+main{
+    background-color: $cor-fundo-principal;
+    
+    h1{
+        text-align: center;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+        font-family: $fonte-zen;
+        font-size: 10vh;
+
+        color: $cor-fonte-destaque;
+    }
+    .contato{
+        margin: auto;
+        width: 80vw;
+
+        display: flex;   
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+        .integrante{
+            background-color: $cor-fundo-secundario;
+            padding: 2%;
+            border-radius: 30px;
+
+            img{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+            }
+
+            .nome{
+                font-family: $fonte-red-hat;
+                font-weight: 700;
+            }
+
+            .rede-social{
+                font-family: $fonte-red-hat;
+                display: flex;
+                
+
+                img{
+                    max-height: 1em;
+                    max-width: 1em;
+                    padding-right: 5px;
+                }
+            }
+        }
+
+
+    }
+
+    .velas{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            height: 150px;
+            width: 150px;
+
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+    }
+
+
+}
