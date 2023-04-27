@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 header {
   height: 10vh;
   display: flex;
@@ -46,6 +47,137 @@ main .tela1 h2 {
 }
 main .tela1 img {
   max-height: 400px;
+}
+main .tela2 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .tela2 img {
+  max-height: 400px;
+}
+main .tela2 .conteudo {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10vh;
+}
+main .tela2 .conteudo .titulo h2 {
+  font-family: "Great Vibes", cursive;
+  color: #A0524E;
+  font-size: 128px;
+  font-size: 10vh;
+}
+main .tela2 .conteudo .titulo h3 {
+  font-size: 36px;
+  font-size: 5vh;
+}
+main .tela2 .conteudo .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5vh;
+}
+main .tela2 .conteudo .texto p {
+  font-size: 32px;
+  font-size: 3vh;
+}
+main .tela3 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .tela3 img {
+  max-height: 400px;
+}
+main .tela3 .conteudo {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10vh;
+}
+main .tela3 .conteudo .titulo h2 {
+  font-family: "Great Vibes", cursive;
+  color: #A0524E;
+  font-size: 128px;
+  font-size: 10vh;
+}
+main .tela3 .conteudo .titulo h3 {
+  font-size: 5vh;
+}
+main .tela3 .conteudo .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5vh;
+}
+main .tela3 .conteudo .texto p {
+  font-size: 3vh;
+}
+main .tela4 {
+  height: 100vh;
+}
+main .tela4 .conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6vh;
+}
+main .tela4 .conteudo .titulo {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10vh;
+}
+main .tela4 .conteudo .titulo h2 {
+  font-family: "Great Vibes", cursive;
+  color: #A0524E;
+  font-size: 128px;
+  font-size: 10vh;
+  align-self: center;
+}
+main .tela4 .conteudo .titulo p {
+  font-size: 4vh;
+}
+main .tela4 .conteudo .lista {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .tela4 .conteudo .lista .texto {
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  text-align: justify;
+}
+main .tela4 .conteudo .lista .texto .num {
+  width: 50px;
+  height: 50px;
+  background-color: #F8F5F5;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .tela4 .conteudo .lista .texto .num span {
+  font-size: 5vh;
+  font-family: "Red Hat Text", sans-serif;
+}
+main .tela4 .conteudo .lista .texto h3 {
+  font-family: "Zen Antique Soft", serif;
+  font-size: 4vh;
+  font-weight: 500;
+}
+main .tela4 .conteudo .lista .texto p {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 3vh;
 }
 
 footer {
