@@ -119,7 +119,8 @@ main .tela3 .conteudo .texto p {
   font-size: 3vh;
 }
 main .tela4 {
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 10vh;
 }
 main .tela4 .conteudo {
   display: flex;
