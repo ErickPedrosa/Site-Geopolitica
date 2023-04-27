@@ -1,13 +1,15 @@
 header{
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: $cor-fundo-secundario;
 
     nav{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 
         a{
             font-family: $fonte-red-hat;
@@ -27,4 +29,15 @@ header{
     img{
         max-height: 96px;
     }
+}
+
+@media screen and (max-width: 720px){
+    header{
+        nav{
+            p{
+                visibility: hidden;
+            }
+        }
+        
+    }    
 }

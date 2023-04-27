@@ -2,15 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 header {
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   background-color: #F8F5F5;
 }
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 header nav a {
   font-family: "Red Hat Text", sans-serif;
@@ -26,6 +28,11 @@ header img {
   max-height: 96px;
 }
 
+@media screen and (max-width: 720px) {
+  header nav p {
+    visibility: hidden;
+  }
+}
 main {
   background-color: #FFF2E9;
   min-height: 90vh;
@@ -83,6 +90,11 @@ main .velas img {
   padding-right: 5vw;
 }
 
+@media screen and (max-width: 480px) {
+  .velas {
+    visibility: hidden;
+  }
+}
 footer {
   background-color: #F8F5F5;
   display: flex;
