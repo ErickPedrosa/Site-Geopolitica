@@ -69,6 +69,10 @@ main .contato .integrante .nome {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+main .contato .integrante .descricao {
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
 main .contato .integrante .rede-social {
   font-family: "Red Hat Text", sans-serif;
   display: flex;
@@ -205,12 +209,3 @@ footer .mensagem form .enviar {
   width: 30%;
   align-self: flex-end;
 }/*# sourceMappingURL=contato.css.map */
-
-.rede-social {
-  text-decoration: none;
-  color: black;
-}
-
-.rede-social:hover {
-  text-decoration: underline;
-}
