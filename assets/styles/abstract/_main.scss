@@ -2,6 +2,7 @@ main{
     background-color: $cor-fundo-principal;
 
     .tela1{
+        padding-top: 10vh;
         height: 90vh;
         text-align: center;
 
@@ -277,8 +278,6 @@ main{
             img{
                 visibility: hidden;
                 position: absolute;
-                left: 0;
-                
             }
 
             .conteudo{

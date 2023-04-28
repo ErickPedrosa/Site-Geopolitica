@@ -1,0 +1,58 @@
+
+    header{
+        .menu-icon{
+            visibility: hidden;
+            position: absolute;
+        }
+    }
+
+    .menu-lateral{
+        visibility: hidden;
+        position: fixed;
+
+        top: 10vh;
+    }
+
+
+@media screen and (max-width: 480px){
+    header{ 
+        .menu-icon{
+            position: relative;
+            visibility: visible;
+            height: 6vh;
+        }
+
+        nav{
+            position: absolute;
+            visibility: hidden;
+        }
+    }
+
+    .menu-lateral{
+        visibility: hidden;
+        background-color: $cor-fundo-secundario;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+
+        height: 90vh;
+        width: 40vw;
+
+
+        font-family: $fonte-red-hat;
+        font-size: 2.5  vh;
+        padding-top: 2vh;
+
+        
+
+        a{
+            color: $cor-fonte-princiapal;
+
+            &hover{
+                color: $cor-fonte-destaque;
+            }
+        }
+    }
+}
