@@ -122,11 +122,15 @@ main .contato .integrante .rede-social {
   font-family: "Red Hat Text", sans-serif;
   display: flex;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 main .contato .integrante .rede-social img {
   max-height: 1em;
   max-width: 1em;
   padding-right: 5px;
+}
+main .contato .integrante .rede-social:hover {
+  color: black;
 }
 main .velas {
   display: flex;
