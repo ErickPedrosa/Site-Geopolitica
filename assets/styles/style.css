@@ -264,6 +264,9 @@ main .tela5 .conteudo .texto p {
 }
 
 @media screen and (max-width: 480px) {
+  main .tela1 h1 {
+    font-size: 7vh;
+  }
   main .tela1 .conteudo .titulo h2 {
     font-size: 5vh;
   }
@@ -277,10 +280,10 @@ main .tela5 .conteudo .texto p {
     font-size: 8.5vh;
   }
   main .tela4 .conteudo .titulo h2 {
-    font-size: 8vh;
+    font-size: 8.5vh;
   }
   main .tela5 .conteudo .titulo h2 {
-    font-size: 8.5vh;
+    font-size: 8vh;
   }
 }
 @media screen and (max-width: 720px) {

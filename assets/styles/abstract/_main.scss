@@ -251,8 +251,13 @@ main{
 @media screen and (max-width: 480px){
     main{
         .tela1{
+            h1{
+                font-size: 7vh;
+            }
+            
             .conteudo{
                 .titulo{
+                    
                     h2{
                         font-size: 5vh;
                     }
@@ -288,7 +293,7 @@ main{
             .conteudo{
                 .titulo{
                     h2{
-                        font-size: clamp(4vh, 8vh,8.5vh);
+                        font-size: 8.5vh;
                     }
                 }
             }
@@ -297,7 +302,7 @@ main{
             .conteudo{
                 .titulo{
                     h2{
-                        font-size: 8.5vh;
+                        font-size: clamp(4vh, 8vh,8.5vh);
                     }
                 }
             }
