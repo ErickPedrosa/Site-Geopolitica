@@ -3,6 +3,7 @@ main{
     background-color: $cor-fundo-principal;
     min-height: 90vh;
     
+    
     h1{
         text-align: center;
         padding-top: 6vh;
@@ -20,7 +21,7 @@ main{
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 30px;  
         
         .integrante{
 
@@ -77,5 +78,6 @@ main{
 @media screen and (max-width: 480px){
     .velas{
         visibility: hidden;
+        position: absolute;
     }    
 }

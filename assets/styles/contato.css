@@ -93,6 +93,7 @@ main .velas img {
 @media screen and (max-width: 480px) {
   .velas {
     visibility: hidden;
+    position: absolute;
   }
 }
 footer {

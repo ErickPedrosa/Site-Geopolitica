@@ -8,7 +8,7 @@ main{
         h1{
             padding-top: 6vh;
             font-family: $fonte-zen;
-            font-size: 10vh;
+            font-size: 9vh;
 
             color: $cor-fonte-destaque;
         }
@@ -38,7 +38,7 @@ main{
         }
 
         .conteudo{
-            max-width: 50vw;
+            max-width: 60vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -86,7 +86,7 @@ main{
         }
 
         .conteudo{
-            max-width: 50vw;
+            max-width: 60vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -113,6 +113,8 @@ main{
                 p{
                     font-family: $fonte-red-hat;
                     font-size: 3vh;
+                    text-align: justify;
+
     
                 }
             }
@@ -135,7 +137,7 @@ main{
             gap: 6vh;
 
             .titulo{
-                max-width: 50vw;
+                max-width: 60vw;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -150,6 +152,7 @@ main{
                 }
                 p{
                     font-family: $fonte-red-hat;
+                    text-align: justify;
                     font-size: 4vh;
                 }
             }
@@ -257,43 +260,76 @@ main{
         .tela1{
             height: 100%;
             img{
-                height: 30vh;
+                height: 40vh;
+            }
+            .anjo2{
+                visibility: hidden;
+                position: absolute;
             }
         }
-    }   
+      
 
-    .tela2{
-        height: 100%;
-        img{
-            visibility: hidden;
-            position: absolute;
+        .tela2{
+            height: 100%;
+            padding-top: 10vh;
+
+            img{
+                visibility: hidden;
+                position: absolute;
+            }
+
+            .conteudo{
+                align-self: center;
+            }
         }
 
-        .conteudo{
-            align-self: center;
+        .tela3{
+            height: 100%;
+            padding-top: 10vh;
+            flex-direction: column;
+            gap: 10vh;
+
+            img{
+                height: 30vh;
+            }
+            
         }
-    }
 
-    .tela3{
-        height: 100%;
-        
+        .tela4{
+            height: 100%;
+            padding-top: 10vh;
+            .conteudo{
+                .lista{
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10vh;
 
-        img{
-            height: 30vh;
+                    .texto{
+
+                        max-width: 60vw;
+
+                        .num{
+                            visibility: hidden;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
         }
-    }
 
-    .tela4{
-        height: 100%;
+        .tela5{
+            padding-top: 10vh;
 
-        img{
-            height: 30vh;
-        }
-    }
+            .conteudo{
+                flex-direction: column;
+                align-items: center;
+                gap: 10vh;
 
-    .tela5{
-        img{
-            height: 30vh;
+                .sub1, .sub2{
+                    text-align: center;
+                    width: 60vw;
+                }
+            }
         }
     }
 }

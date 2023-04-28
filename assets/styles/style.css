@@ -43,7 +43,7 @@ main .tela1 {
 main .tela1 h1 {
   padding-top: 6vh;
   font-family: "Zen Antique Soft", serif;
-  font-size: 10vh;
+  font-size: 9vh;
   color: #A0524E;
 }
 main .tela1 h2 {
@@ -65,7 +65,7 @@ main .tela2 img {
   max-height: 400px;
 }
 main .tela2 .conteudo {
-  max-width: 50vw;
+  max-width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,7 +101,7 @@ main .tela3 img {
   max-height: 400px;
 }
 main .tela3 .conteudo {
-  max-width: 50vw;
+  max-width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -124,6 +124,7 @@ main .tela3 .conteudo .texto {
 main .tela3 .conteudo .texto p {
   font-family: "Red Hat Text", sans-serif;
   font-size: 3vh;
+  text-align: justify;
 }
 main .tela4 {
   min-height: 100vh;
@@ -137,7 +138,7 @@ main .tela4 .conteudo {
   gap: 6vh;
 }
 main .tela4 .conteudo .titulo {
-  max-width: 50vw;
+  max-width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -151,6 +152,7 @@ main .tela4 .conteudo .titulo h2 {
 }
 main .tela4 .conteudo .titulo p {
   font-family: "Red Hat Text", sans-serif;
+  text-align: justify;
   font-size: 4vh;
 }
 main .tela4 .conteudo .lista {
@@ -226,32 +228,59 @@ main .tela5 .conteudo .texto p {
     height: 100%;
   }
   main .tela1 img {
-    height: 30vh;
+    height: 40vh;
   }
-  .tela2 {
-    height: 100%;
-  }
-  .tela2 img {
+  main .tela1 .anjo2 {
     visibility: hidden;
     position: absolute;
   }
-  .tela2 .conteudo {
+  main .tela2 {
+    height: 100%;
+    padding-top: 10vh;
+  }
+  main .tela2 img {
+    visibility: hidden;
+    position: absolute;
+  }
+  main .tela2 .conteudo {
     align-self: center;
   }
-  .tela3 {
+  main .tela3 {
     height: 100%;
+    padding-top: 10vh;
+    flex-direction: column;
+    gap: 10vh;
   }
-  .tela3 img {
+  main .tela3 img {
     height: 30vh;
   }
-  .tela4 {
+  main .tela4 {
     height: 100%;
+    padding-top: 10vh;
   }
-  .tela4 img {
-    height: 30vh;
+  main .tela4 .conteudo .lista {
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
   }
-  .tela5 img {
-    height: 30vh;
+  main .tela4 .conteudo .lista .texto {
+    max-width: 60vw;
+  }
+  main .tela4 .conteudo .lista .texto .num {
+    visibility: hidden;
+    position: absolute;
+  }
+  main .tela5 {
+    padding-top: 10vh;
+  }
+  main .tela5 .conteudo {
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+  }
+  main .tela5 .conteudo .sub1, main .tela5 .conteudo .sub2 {
+    text-align: center;
+    width: 60vw;
   }
 }
 footer {
