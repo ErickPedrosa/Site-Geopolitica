@@ -249,9 +249,58 @@ main{
 
 
 @media screen and (max-width: 480px){
-    .tela1{
-        img{
-            height: 30vh;
+    main{
+        .tela1{
+            .conteudo{
+                .titulo{
+                    h2{
+                        font-size: 5vh;
+                    }
+                }
+            }
+            
+
+            img{
+                height: 30vh;
+            }
+        }
+
+        .tela2{
+            .conteudo{
+                .titulo{
+                    h2{
+                        font-size: 8.5vh;
+                    }
+                }
+            }
+        }
+
+        .tela3{
+            .conteudo{
+                .titulo{
+                    h2{
+                        font-size: 8.5vh;
+                    }
+                }
+            }
+        }
+        .tela4{
+            .conteudo{
+                .titulo{
+                    h2{
+                        font-size: clamp(4vh, 8vh,8.5vh);
+                    }
+                }
+            }
+        }
+        .tela5{
+            .conteudo{
+                .titulo{
+                    h2{
+                        font-size: 8.5vh;
+                    }
+                }
+            }
         }
     }
 }
