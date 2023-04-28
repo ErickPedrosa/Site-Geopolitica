@@ -233,6 +233,7 @@ main .tela5 .conteudo .texto p {
   main .tela1 .anjo2 {
     visibility: hidden;
     position: absolute;
+    left: 0;
   }
   main .tela2 {
     height: 100%;
@@ -241,6 +242,7 @@ main .tela5 .conteudo .texto p {
   main .tela2 img {
     visibility: hidden;
     position: absolute;
+    left: 0;
   }
   main .tela2 .conteudo {
     align-self: center;

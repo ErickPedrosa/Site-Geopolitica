@@ -205,3 +205,12 @@ footer .mensagem form .enviar {
   width: 30%;
   align-self: flex-end;
 }/*# sourceMappingURL=contato.css.map */
+
+.rede-social {
+  text-decoration: none;
+  color: black;
+}
+
+.rede-social:hover {
+  text-decoration: underline;
+}
