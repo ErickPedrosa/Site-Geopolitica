@@ -2,9 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 header {
+  position: fixed;
+  width: 100vw;
   min-height: 10vh;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   background-color: #F8F5F5;
 }
@@ -31,6 +34,47 @@ header img {
 @media screen and (max-width: 720px) {
   header nav p {
     visibility: hidden;
+  }
+}
+header .menu-icon {
+  visibility: hidden;
+  position: absolute;
+}
+
+.menu-lateral {
+  visibility: hidden;
+  position: fixed;
+  top: 10vh;
+}
+
+@media screen and (max-width: 480px) {
+  header .menu-icon {
+    position: relative;
+    visibility: visible;
+    height: 6vh;
+  }
+  header nav {
+    position: absolute;
+    visibility: hidden;
+  }
+  .menu-lateral {
+    visibility: hidden;
+    background-color: #F8F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    height: 90vh;
+    width: 40vw;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 2.5 vh;
+    padding-top: 2vh;
+  }
+  .menu-lateral a {
+    color: black;
+  }
+  .menu-lateral ahover {
+    color: #A0524E;
   }
 }
 main {
