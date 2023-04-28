@@ -188,6 +188,7 @@ main .tela4 .conteudo .lista .texto p {
   font-size: 3vh;
 }
 main .tela5 {
+  min-height: 50vh;
   padding-bottom: 10vh;
 }
 main .tela5 .conteudo {
